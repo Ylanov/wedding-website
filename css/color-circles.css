@@ -1,0 +1,39 @@
+/* Стилизация кружков */
+.color-circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Примеры цветов */
+.color-1 {
+    background-color: #ff0000;
+}
+
+.color-2 {
+    background-color: #00ff00;
+}
+
+.color-3 {
+    background-color: #0000ff;
+}
+
+.color-4 {
+    background-color: #ffff00;
+}
+
+.color-5 {
+    background-color: #ff00ff;
+}
+
+/* Задний фон модального окна */
+#dc-modal .modal-content {
+    background-color: #f8f9fa; /* Пример цвета фона */
+}
